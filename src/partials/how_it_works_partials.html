@@ -1,6 +1,11 @@
 <section class="how-it-works">
-    <div class="container-img-howitworks" id="how-it-works">
-        <img class="img-howitworks" src="./images/howitworks-desk.jpg" alt="a woman is chopping a fruits" width="430" />
+    <div class="container-img-howitworks">
+        <picture>
+            <source srcset="/img/howitworks-desk.jpg 1x, /img/howitworks-2xdesk.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/img/howitworks-tab.jpg 1x, /img/howitworks-2xtab.jpg 2x" media="(min-width: 768px)">
+            <source srcset="/img/howitworks-mob.jpg 1x, /img/howitworks-2xmob.jpg 2x" media="(min-width: 320px) and (max-width: 375px)">
+        <img class="img-howitworks" src="/img/howitworks-desk.jpg" alt="a woman is chopping a fruits" width="430" />
+        </picture>
     </div>
     <div class="container-make-order">
         <h2 class="visually-hidden">How it works</h2>
@@ -11,7 +16,7 @@
             without ever leaving your home.</p>
         <ol class="list-hiw">
             <li class="item-hiw">
-                <p class="text-instruction-hiw text-first-hiw">Just choose <span class="accent-item-hiw">the vegetable
+                <p class="text-instruction-hiw">Just choose <span class="accent-item-hiw">the vegetable
                     </span> you
                     want to order by clicking on the checkboxes<span class="accent-item-hiw"> next to it.</span></p>
             </li>
