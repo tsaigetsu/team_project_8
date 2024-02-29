@@ -14,7 +14,7 @@
     rel="stylesheet">
   <link rel="icon" href="/team_project_8/assets/logo-d4590c58.svg">
   
-  <link rel="stylesheet" href="/team_project_8/assets/index-a00105dd.css">
+  <link rel="stylesheet" href="/team_project_8/assets/index-cc73849a.css">
 </head>
 
 <body>
@@ -61,8 +61,13 @@
   <main class="main">
     
     <section class="how-it-works">
-    <div class="container-img-howitworks" id="how-it-works">
-        <img class="img-howitworks" src="./images/howitworks-desk.jpg" alt="a woman is chopping a fruits" width="430" />
+    <div class="container-img-howitworks">
+        <picture>
+            <source srcset="/team_project_8/assets/howitworks-desk-84c9737f.jpg 1x, /team_project_8/assets/howitworks-2xdesk-43e60457.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/team_project_8/assets/howitworks-tab-1ad78bbe.jpg 1x, /team_project_8/assets/howitworks-2xtab-c5e15000.jpg 2x" media="(min-width: 768px)">
+            <source srcset="/team_project_8/assets/howitworks-mob-4fe7e0be.jpg 1x, /team_project_8/assets/howitworks-2xmob-1c1cf4ec.jpg 2x" media="(min-width: 320px) and (max-width: 375px)">
+        <img class="img-howitworks" src="/team_project_8/assets/howitworks-desk-84c9737f.jpg" alt="a woman is chopping a fruits" width="430" />
+        </picture>
     </div>
     <div class="container-make-order">
         <h2 class="visually-hidden">How it works</h2>
@@ -73,7 +78,7 @@
             without ever leaving your home.</p>
         <ol class="list-hiw">
             <li class="item-hiw">
-                <p class="text-instruction-hiw text-first-hiw">Just choose <span class="accent-item-hiw">the vegetable
+                <p class="text-instruction-hiw">Just choose <span class="accent-item-hiw">the vegetable
                     </span> you
                     want to order by clicking on the checkboxes<span class="accent-item-hiw"> next to it.</span></p>
             </li>
