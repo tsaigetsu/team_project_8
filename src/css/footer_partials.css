@@ -1,0 +1,24 @@
+.footer-container {
+  background-color: var(--background-2);
+  padding: 40px 0;
+}
+
+.footer-logo-container {
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  fill: #fbfbfb;
+  text-transform: uppercase;
+}
+
+.footer-logo-icon {
+}
+
+.footer-text {
+}
+
+.footer-contacts {
+}
