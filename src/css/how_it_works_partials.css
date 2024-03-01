@@ -1,32 +1,35 @@
-p {
-  font-family: 'Inter Tight', sans-serif;
-}
-
 .how-it-works {
   min-width: 320px;
+  background: linear-gradient(
+    to bottom,
+    #7a3145 0% 44.76%,
+    #576f35 44.76% 100%
+  );
 }
 
 .container-how-it-works {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-img-howitworks {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #7a3145;
 }
 
 .img-howitworks {
-  width: 100%;
-  margin: 0 auto;
+  width: 335px;
+  height: 450px;
   display: block;
   border-radius: 30px;
 }
 
 .container-make-order {
-  background-color: #576f35;
-  padding: 80px 20px;
+  width: 355px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .visually-hidden {
@@ -43,7 +46,6 @@ p {
 }
 
 .title-howitworks {
-  width: 355px;
   color: #fbfbfb;
   font-size: 28px;
   font-weight: 600;
@@ -77,7 +79,7 @@ p {
   background-color: #fbfbfb;
   border-radius: 15px;
   padding-top: 12px;
-  padding-right: 25px;
+  padding-right: 24px;
   padding-bottom: 12px;
   padding-left: 24px;
   list-style: none;
@@ -118,13 +120,13 @@ p {
   font-weight: 700;
 }
 
-.text-second-hiw {
-  padding-right: 34px;
-}
-
 @media screen and (min-width: 768px) {
   .how-it-works {
-    width: 768px;
+    background: linear-gradient(
+      to bottom,
+      #7a3145 0% 54.64%,
+      #576f35 54.64% 100%
+    );
   }
 
   .container-img-howitworks {
@@ -132,35 +134,43 @@ p {
     padding-bottom: 100px;
   }
 
+  .img-howitworks {
+    width: 640px;
+    height: 640px;
+  }
+
   .container-make-order {
-    padding: 100px 159px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 450px;
   }
 
   .title-howitworks {
-    width: 100%;
     margin-bottom: 25px;
   }
+
   .descr-howitworks {
     margin-bottom: 50px;
-  }
-
-  .text-second-hiw {
-    padding-right: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container-how-it-works {
-    flex-direction: row;
+  .how-it-works {
+    background: linear-gradient(to right, #7a3145 0% 50%, #576f35 50% 100%);
   }
 
-  .how-it-works {
-    width: 1280px;
-  }
   .container-how-it-works {
-    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .container-img-howitworks {
+  }
+
+  .img-howitworks {
+    width: 430px;
+    height: 559px;
   }
 }
