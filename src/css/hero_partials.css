@@ -102,3 +102,8 @@
         width: 427px;
     }
 }
+.hero-images{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+}
