@@ -88,7 +88,6 @@
     font-weight: 500;
     line-height: 18px;
 }
-
 @media screen and (min-width: 768px) {
     .hero-text {
         width: 603px;
@@ -96,7 +95,6 @@
         line-height: 20px;
     }
 }
-
 @media screen and (min-width: 1280px) {
     .hero-text {
         width: 427px;
