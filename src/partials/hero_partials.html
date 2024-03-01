@@ -9,11 +9,23 @@
       delivered to you.
     </p>
   </div>
-
-  <img
-    class="hero-images"
-    srcset="./images/vegetables.jpg 1x, ./images/vegetables_2х.jpg 2x"
-    src="./images/vegetables.jpg"
-    alt="vegetables"
-  />
+  <picture class="hero-images">
+    <source
+      media="(min-width: 1280px)"
+      srcset="./images/vegetables.jpg 1x, ./images/vegetables2х.jpg 2x"
+    />
+    <source
+      media="(min-width: 768px)"
+      srcset="./images/vegetables-tab 1x.jpg 1x, ./images/vegetables-tab2х.jpg 2x"
+    />
+    <source
+      media="(max-width: 767px)"
+      srcset="./images/vegetables-mob 1x.jpg 1x, ./images/vegetables-mob2х.jpg 2x"
+    />
+    <img
+      srcset="./images/vegetables.jpg 1x, ./images/vegetables_2х.jpg 2x"
+      src="./images/vegetables.jpg"
+      alt="vegetables"
+    />
+  </picture>
 </section>
