@@ -53,16 +53,18 @@
 
 .content-container {
     border-radius: 30px;
-    padding: 40px 20px;
+
     height: auto;
 }
 
 .white {
     background-color: #FBFBFB;
+    padding: 40px 20px;
 }
 
 .green {
     background-color: #576F35;
+    padding: 40px 20px;
 }
 
 .form_paragraf {
@@ -145,17 +147,50 @@
     color: var(--main-text);
 }
 
-.your_order_picture {
+.picture_container {
+    margin-bottom: 20px;
+    overflow: hidden;
     border-radius: 15px;
 }
 
-.socials_paragraf {}
+.your_order_picture {}
 
-.social_list {}
+.your_order_picture source {}
 
-.social_items {}
+.socials_paragraf {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 14px;
+}
 
-.social_links {}
+.social_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.social_items {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    color: var(--main-text);
+}
+
+.social_links {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    color: var(--main-text);
+}
 
 /* стилізація плейсхолдера */
 .your_order_input::placeholder {
@@ -205,4 +240,151 @@
 
 .your_order_textarea {
     resize: none;
+}
+
+@media screen and (min-width: 768px) {
+    .first_part_container {
+        max-width: 640px;
+    }
+
+    .your_order_heading {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: var(--main-text);
+    }
+
+    .harvest_span {}
+
+    .your_order_paragraf {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        color: var(--main-text);
+    }
+
+    .div-list {
+        margin: 0 38px;
+        gap: 25px;
+    }
+
+    .div-items {}
+
+    .content-container {}
+
+    .white {
+        padding: 50px 100px;
+    }
+
+    .green {
+        padding: 50px;
+    }
+
+    .form_paragraf {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 108%;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: var(--text);
+    }
+
+    .from_us_span {}
+
+    .the_form_span {}
+
+    .your_order_form {}
+
+    .input_container {
+        border-radius: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .your_order_input {
+        border: 1px solid rgba(20, 20, 20, 0.2);
+        border-radius: 30px;
+        padding: 16px 16px;
+        width: 100%;
+        height: 52px;
+    }
+
+    .your_order_input::placeholder {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+        color: var(--text);
+    }
+
+    .text-valid {}
+
+    .text-invalid {}
+
+    .text_area_container {}
+
+    .your_order_textarea {
+        border: 1px solid rgba(20, 20, 20, 0.2);
+        border-radius: 15px;
+        padding: 16px 16px;
+        width: 100%;
+        height: 95px;
+    }
+
+    .your_order_textarea {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+        color: var(--text);
+    }
+
+    .your_order_button {
+        border-radius: 30px;
+        width: 428px;
+        height: 52px;
+    }
+
+    .picture_container {
+        border-radius: 18px;
+        margin-bottom: 50px;
+    }
+
+    .your_order_picture {}
+
+    .socials_paragraf {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 111%;
+        letter-spacing: -0.01em;
+        color: rgba(251, 251, 251, 0.5);
+    }
+
+    .social_list {}
+
+    .social_items {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        color: var(--main-text);
+    }
+
+    .social_links {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        color: var(--main-text);
+    }
 }
