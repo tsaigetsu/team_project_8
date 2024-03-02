@@ -78,6 +78,7 @@
 }
 
 .descr-howitworks {
+  font-family: 'Inter Tight', sans-serif;
   color: #fbfbfb;
   font-size: 14px;
   font-weight: 500;
@@ -97,7 +98,7 @@
   background-color: #fbfbfb;
   border-radius: 15px;
   padding-top: 12px;
-  padding-right: 27px;
+  padding-right: 25px;
   padding-bottom: 12px;
   padding-left: 24px;
   list-style: none;
@@ -125,11 +126,16 @@
 }
 
 .text-instruction-hiw {
+  font-family: 'Inter Tight', sans-serif;
   color: rgba(20, 20, 20, 0.6);
   font-size: 12px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: -0.02em;
+}
+
+.texr-instr-second {
+  font-family: inherit;
 }
 
 .accent-item-hiw {
@@ -175,6 +181,10 @@
   .text-instruction-hiw {
     font-size: 16px;
     line-height: 1.25;
+  }
+
+  .text-instr-third {
+    font-family: inherit;
   }
 }
 
