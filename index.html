@@ -70,13 +70,21 @@
       delivered to you.
     </p>
   </div>
-
-  <img
-    class="hero-images"
-    srcset="./images/vegetables.jpg 1x, ./images/vegetables_2х.jpg 2x"
-    src="./images/vegetables.jpg"
-    alt="vegetables"
-  />
+  <picture class="hero-images">
+    <source
+      media="(min-width: 1280px)"
+      srcset="/team_project_8/assets/vegetables-ef58eb29.jpg 1x, /team_project_8/assets/vegetables2x-5f17c90b.jpg 2x"
+    />
+    <source
+      media="(min-width: 768px)"
+      srcset="/team_project_8/assets/vegetables-tab-3adb7b73.jpg 1x, /team_project_8/assets/vegetables-tab2x-0df19a69.jpg 2x"
+    />
+    <source
+      media="(max-width: 767px)"
+      srcset="/team_project_8/assets/vegetables-mob-19b6d004.jpg 1x, /team_project_8/assets/vegetables-mob-19b6d004.jpg 2x"
+    />
+    <img src="/team_project_8/assets/vegetables-ef58eb29.jpg" alt="vegetable" class="hero-images" />
+  </picture>
 </section>
 
     <section class="how-it-works" id="how_it_works">
