@@ -65,11 +65,14 @@
     .adv-span {
         font-size: 76px;
         line-height: 105%;
-        margin: 0 -13px;
+        margin-left: -13px;
+        margin-right: 0;
+        display: inline-block;
     }
 
     .adv-text {
         font-size: 76px;
         line-height: 105%;
+        display: inline-block;
     }
 }
