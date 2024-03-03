@@ -4,16 +4,14 @@
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    background: #576f35;
+    background-color: #576f35;
     padding-top: 100px;
 }
-
 @media screen and (min-width: 768px) {
     .hero-section {
         gap: 50px;
     }
 }
-
 @media screen and (min-width: 1280px) {
     .hero-section {
         display:flex;
@@ -24,7 +22,6 @@
         padding-top: 0;
     }
 }
-
 .hero-container {
     display: flex;
     flex-direction: column;
@@ -34,7 +31,6 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-
 @media screen and (min-width: 768px) {
     .hero-container {
         width: 100%;
@@ -44,7 +40,6 @@
         padding-right: 32px;
     }
 }
-
 @media screen and (min-width: 1280px) {
     .hero-container {
         width: 100%;
@@ -52,7 +47,7 @@
         padding-bottom: 50px;
         padding-right: 20px;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 128px;
         padding-left: 100px;
     }

@@ -9,12 +9,25 @@
       delivered to you.
     </p>
   </div>
-  <div class="images-container">
-    <picture class="hero-images">
-      <source media="(min-width: 1280px)" srcset="./img/vegetable.jpg 1x, ./img/vegetable2x.jpg 2x" srcset="./img/v" />
-      <source media="(min-width: 768px)" srcset="./img/vegetable-tab.jpg 1x, ./img/vegetable-tab2x.jpg 2x" />
-      <source media="(max-width: 767px)" srcset="./img/vegetable-mob.jpg 1x, ./img/vegetable-mob2x.jpg 2x" />
+  <div
+    class="images-container"
+    style="background-image: url(./img/vegetable2x.jpg)"
+  >
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="./img/vegetable.jpg 1x, ./img/vegetable2x.jpg 2x"
+        srcset="./img/v"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./img/vegetable-tab.jpg 1x, ./img/vegetable-tab2x.jpg 2x"
+      />
+      <source
+        media="(min-width: 320px and max-width: 767px)"
+        srcset="./img/vegetable-mob.jpg 1x, ./img/vegetable-mob2x.jpg 2x"
+      />
       <img src="./img/vegetable2x.jpg" alt="vegetable" class="hero-images" />
+    </picture>
   </div>
-  </picture>
 </section>
