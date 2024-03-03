@@ -1,6 +1,9 @@
 footer {
-  background-color: var(--background-2);
-  padding: 40px 0;
+  background-color: #7a3145;
+}
+
+.container {
+  padding-top: 40px;
 }
 
 .footer-container {
@@ -77,6 +80,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
 }
 
 .footer-policy {
@@ -112,13 +118,18 @@ footer {
     padding-right: 0;
     max-width: 179px;
   }
+
+  .footer-policy-container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
 }
 
 /* tablet */
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 32px;
+    padding-top: 32px;
   }
 
   .footer-container {
@@ -166,6 +177,12 @@ footer {
     max-width: 215px;
   }
 
+  .footer-policy-container {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+  }
+
   .footer-policy {
     font-size: 18px;
     line-height: 1.11;
@@ -175,13 +192,26 @@ footer {
     font-size: 18px;
     line-height: 1.11;
   }
+
+  .footer-policy-container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
 }
 
 /* desktop */
 
 @media screen and (min-width: 1280px) {
   .container {
-    padding: 50px 100px;
+    padding-top: 50px;
+  }
+
+  .footer-policy-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
   }
 
   .footer-nav-container {
@@ -192,5 +222,10 @@ footer {
 
   .footer-links {
     margin-bottom: 0;
+  }
+
+  .footer-policy-container {
+    max-width: 1280px;
+    margin: 0 auto;
   }
 }
