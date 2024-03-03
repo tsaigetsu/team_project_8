@@ -209,8 +209,8 @@ align-items: center;
 
 }
 
-????.mob-menu-btn:hover, .mob-menu-btn:active {
-  color: #7A3145;
+.mob-menu-btn:hover, .mob-menu-btn:active {
+  color: rgba(122, 49, 69, 0.7);
 }
 
 
