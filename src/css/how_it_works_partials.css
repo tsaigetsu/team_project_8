@@ -1,5 +1,4 @@
 .how-it-works {
-  min-width: 320px;
   background: linear-gradient(
     to bottom,
     #7a3145 0% 44.76%,
@@ -14,24 +13,6 @@
   align-items: center;
 }
 
-.container-img-howitworks {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.img-howitworks {
-  width: 335px;
-  height: 450px;
-  display: block;
-  border-radius: 30px;
-}
-
-.container-make-order {
-  width: 355px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -43,6 +24,41 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container-img-howitworks {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.gradient-hiw {
+  position: relative;
+}
+
+.gradient-hiw::after {
+  content: '';
+  top: 0;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 0.3) 0%,
+    rgba(20, 20, 20, 0.3) 100%
+  );
+}
+
+.img-howitworks {
+  width: 335px;
+  height: 450px;
+  border-radius: 30px;
+}
+
+.container-make-order {
+  max-width: 335px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .title-howitworks {
@@ -60,6 +76,7 @@
 }
 
 .descr-howitworks {
+  font-family: 'Inter Tight', sans-serif;
   color: #fbfbfb;
   font-size: 14px;
   font-weight: 500;
@@ -79,25 +96,24 @@
   background-color: #fbfbfb;
   border-radius: 15px;
   padding-top: 12px;
-  padding-right: 24px;
+  padding-right: 25px;
   padding-bottom: 12px;
   padding-left: 24px;
-  list-style: none;
   display: flex;
   align-items: center;
-  text-align: start;
   counter-increment: number;
 }
 
 .item-hiw::before {
   content: counter(number);
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
   background-color: #7a3145;
   border-radius: 50%;
   border: 5px solid #d3bec4;
   flex-shrink: 0;
   color: #fbfbfb;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -108,11 +124,16 @@
 }
 
 .text-instruction-hiw {
+  font-family: 'Inter Tight', sans-serif;
   color: rgba(20, 20, 20, 0.6);
   font-size: 12px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: -0.02em;
+}
+
+.texr-instr-second {
+  font-family: inherit;
 }
 
 .accent-item-hiw {
@@ -142,15 +163,26 @@
   .container-make-order {
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 450px;
+    max-width: 450px;
   }
 
   .title-howitworks {
+    font-size: 32px;
     margin-bottom: 25px;
   }
 
   .descr-howitworks {
+    font-size: 16px;
+    line-height: 1.25;
     margin-bottom: 50px;
+  }
+  .text-instruction-hiw {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .text-instr-third {
+    font-family: inherit;
   }
 }
 
@@ -166,11 +198,15 @@
     padding-bottom: 0;
   }
 
-  .container-img-howitworks {
+  .container-make-order {
+    padding-top: 0;
   }
 
   .img-howitworks {
     width: 430px;
     height: 559px;
+  }
+  .text-instruction-hiw {
+    width: 323px;
   }
 }
