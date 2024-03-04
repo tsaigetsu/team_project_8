@@ -4,6 +4,9 @@
   padding-right: 20px;
 }
 
+.fourth-section {
+
+
 .container-text {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -53,8 +56,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-
-  .container-text {
+  .fourth-section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -112,6 +114,7 @@
     padding-left: 15px;
     line-height: 1.05;
     letter-spacing: -0.015em;
-
+  }
+}
   }
 }
