@@ -1,9 +1,7 @@
 footer {
   background-color: #7a3145;
-}
-
-.container {
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .footer-container {
@@ -24,7 +22,7 @@ footer {
 }
 
 .footer-logo-icon {
-  width: 16px;
+  width: 168px;
   height: 16px;
 }
 
@@ -55,10 +53,6 @@ footer {
   margin-bottom: 40px;
 }
 
-.footer-nav-container {
-  margin-bottom: 80px;
-}
-
 .footer-contacts {
   color: #fbfbfb;
   font-family: 'Inter Tight';
@@ -78,11 +72,14 @@ footer {
 
 .footer-policy-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: space-between; */
+  gap: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 
 .footer-policy {
@@ -111,6 +108,10 @@ footer {
 /* mobile */
 
 @media screen and (min-width: 375px) {
+  .footer-container {
+    max-width: 375px;
+  }
+
   .footer-text {
     max-width: 296px;
   }
@@ -121,21 +122,27 @@ footer {
 
   .footer-policy-container {
     max-width: 375px;
-    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
   }
 }
 
 /* tablet */
 
 @media screen and (min-width: 768px) {
-  .container {
+  footer {
     padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   .footer-container {
     flex-direction: row;
     gap: 0px;
     justify-content: space-between;
+    max-width: 768px;
+    margin-bottom: 100px;
   }
 
   .footer-logo {
@@ -143,13 +150,8 @@ footer {
     gap: 8px;
   }
   .footer-logo-icon {
-    width: 18px;
+    width: 194px;
     height: 18px;
-  }
-
-  .footer-logo-text {
-    width: 168px;
-    height: 15px;
   }
 
   .footer-text {
@@ -169,18 +171,15 @@ footer {
     gap: 25px;
   }
 
-  .footer-nav-container {
-    margin-bottom: 100px;
-  }
-
   .address {
     max-width: 215px;
   }
 
   .footer-policy-container {
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 32px;
+    margin-top: 100px;
   }
 
   .footer-policy {
@@ -192,40 +191,34 @@ footer {
     font-size: 18px;
     line-height: 1.11;
   }
-
-  .footer-policy-container {
-    max-width: 768px;
-    margin: 0 auto;
-  }
 }
 
 /* desktop */
 
 @media screen and (min-width: 1280px) {
-  .container {
+  footer {
     padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footer-container {
+    margin-bottom: 125px;
   }
 
   .footer-policy-container {
     max-width: 1280px;
     margin: 0 auto;
+    margin-top: 125px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 50px;
   }
 
   .footer-nav-container {
     display: flex;
     gap: 121px;
-    margin-bottom: 125px;
   }
 
   .footer-links {
     margin-bottom: 0;
-  }
-
-  .footer-policy-container {
-    max-width: 1280px;
-    margin: 0 auto;
   }
 }
