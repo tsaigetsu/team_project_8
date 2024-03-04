@@ -1,13 +1,13 @@
-
 .container {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
 }
-.container-text {
+.fourth-section {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .container-text-first {
   display: inline-block;
   max-width: 355px;
@@ -27,6 +27,7 @@
   border-radius: 12px;
   text-align: left;
 }
+
 .container-text-last {
   display: inline-block;
   max-width: 335px;
@@ -38,19 +39,20 @@
   letter-spacing: -0.015em;
   text-transform: uppercase;
 }
+
 @media screen and (min-width: 320px) {
   .container {
     max-width: 375px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
-
-  .container-text {
+  .fourth-section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -76,7 +78,8 @@
     font-weight: 700;
     line-height: 1.09;
     letter-spacing: -0.015em;
-
+  }
+}
 
 @media screen and (min-width: 1280px) {
   .container {
@@ -107,5 +110,5 @@
     padding-left: 15px;
     line-height: 1.05;
     letter-spacing: -0.015em;
-
+  }
 }
