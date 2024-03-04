@@ -1,24 +1,18 @@
 .header-style {
   position: fixed;
-  padding: 32px 0;
-
   background-image: linear-gradient(rgb(29 37 29 / 70%), rgb(0 100 0 / 0%));
   backdrop-filter: blur(10px);
   width: 100%;
   /* Применяем размытие */
   display: flex;
-  justify-content: center;
+  padding: 8px 20px;
+  justify-content: space-between;
 }
 
 .header-container {
-  padding: 0px 100px;
   width: 100%;
-  max-width: 335px;
   height: 32px;
-  max-width: 335px;
-  justify-content: center;
   display: flex;
-  box-sizing: content-box;
 }
 
 .header-style-nav {
@@ -37,7 +31,7 @@
 }
 
 .header-icon {
-  width: 16px;
+  width: 168px;
   height: 16px;
 }
 
