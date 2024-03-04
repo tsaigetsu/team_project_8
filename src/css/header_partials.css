@@ -231,8 +231,7 @@
     width: 168px;
     height: 15px;
   }
-
-  .open-btn-icon {
+}
 @media screen and (min-width: 768px) {
   .header-container {
     min-width: 704px;
@@ -311,7 +310,7 @@
     width: 157px;
     padding: 16px 32px;
   }
-}
+}}
 
 /******************----D---E---S----K----T----O----P-----***********/
 
@@ -337,7 +336,6 @@
   .mob-menu {
     display: none;
   }
-}
 
   .header-ul {
     display: flex;
@@ -348,4 +346,3 @@
   }
 
 }
-

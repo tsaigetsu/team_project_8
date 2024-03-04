@@ -4,12 +4,13 @@
     flex-direction: column;
     align-items: center;
     background: #576f35;
+    padding-top: 100px;
 
 }
 
 @media screen and (min-width: 768px) {
     .hero-section {
-
+        padding-top: 122px;
     }
 }
 
@@ -20,6 +21,7 @@
         align-items: flex-end;
         gap: 28px;
         flex-direction: row;
+        padding-top: 0;
     }
 }
 .hero-container{
@@ -44,10 +46,16 @@
     gap: 20px;
     padding-bottom: 40px;
     padding-top: 0;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 @media screen and (min-width: 768px) {
     .hero-container-div {
         padding-top: 0;
+        padding-bottom: 50px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
 }
@@ -55,7 +63,10 @@
     .hero-container-div {
         padding-right: 0;
         padding-top: 253px;
-        gap: 154px;
+        gap: 128px;
+        padding-top: 238px;
+        padding-right: 46px;
+        padding-left: 100px;
     }
 
 }
@@ -113,8 +124,9 @@
     background-image: linear-gradient( rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)), url(/img/vegetable-mob.jpg); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size:contain;
     padding: 185px 0;
+
 }
 
 @media screen and (min-device-pixel-ratio: 2),
