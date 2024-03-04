@@ -109,7 +109,7 @@ line-height: 1.28;
 }
  .review-title {
         gap: 25px;
-        width: 553px;
+        max-width: 553px;
         margin-bottom: 50px;
  } 
  
