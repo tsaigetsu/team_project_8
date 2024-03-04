@@ -180,6 +180,7 @@
   color: #7A3145;
   background-color: #FBFBFB;
 }
+
 .mob-menu-btn {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
@@ -232,7 +233,8 @@
     height: 15px;
   }
 
-  .open-btn-icon {
+}
+
 @media screen and (min-width: 768px) {
   .header-container {
     min-width: 704px;
@@ -284,50 +286,59 @@
     font-size: 16px;
     line-height: 1.25;
 
-  .mob-menu {
-    width: 351px;
-    margin-left: 417px;
+    .mob-menu {
+      width: 351px;
+      margin-left: 417px;
+    }
+
+    .mob-menu-a {
+      font-size: 16px;
+      line-height: 1.25;
+    }
+
+    .mob-menu-btn {
+      font-size: 18px;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      height: 52px;
+      width: 157px;
+      padding: 16px 32px;
+    }
+
+    .mob-menu-btn {
+      font-size: 18px;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      height: 52px;
+      width: 157px;
+      padding: 16px 32px;
+    }
   }
 
-  .mob-menu-a {
-    font-size: 16px;
-    line-height: 1.25;
-  }
+  /******************----D---E---S----K----T----O----P-----***********/
 
-  .mob-menu-btn {
-    font-size: 18px;
-    line-height: 1.1;
-    letter-spacing: -0.01em;
-    height: 52px;
-    width: 157px;
-    padding: 16px 32px;
-  }
+  @media screen and (min-width: 1280px) {
+    .header-container {
+      display: flex;
+      min-width: 1280px;
+      height: 52px;
+    }
 
-  .mob-menu-btn {
-    font-size: 18px;
-    line-height: 1.1;
-    letter-spacing: -0.01em;
-    height: 52px;
-    width: 157px;
-    padding: 16px 32px;
-  }
-}
+    .button-style {
+      display: flex;
+    }
 
-/******************----D---E---S----K----T----O----P-----***********/
+    .menu-open-btn {
+      display: none;
+    }
 
-@media screen and (min-width: 1280px) {
-  .header-container {
-    display: flex;
-    min-width: 1280px;
-    height: 52px;
-  }
+    .header-ul {
+      display: flex;
+    }
 
-  .button-style {
-    display: flex;
-  }
-
-  .menu-open-btn {
-    display: none;
+    .mob-menu {
+      display: none;
+    }
   }
 
   .header-ul {
@@ -337,15 +348,5 @@
   .mob-menu {
     display: none;
   }
-}
-
-  .header-ul {
-    display: flex;
-  }
-
-  .mob-menu {
-    display: none;
-  }
 
 }
-
