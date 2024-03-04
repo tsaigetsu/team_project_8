@@ -4,12 +4,11 @@
   padding-right: 20px;
 }
 
-.fourth-section {}
-
-.container-text {
+.foursome-section {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 
 .container-text-first {
   display: inline-block;
@@ -56,10 +55,11 @@
     padding-right: 32px;
   }
 
-  .fourth-section {
+  .foursome-section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
 
   .container-text-first {
     max-width: 736px;
