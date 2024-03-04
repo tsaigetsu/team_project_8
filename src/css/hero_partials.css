@@ -125,10 +125,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
-    padding: 185px 0;
+    padding: 160px 0;
 
 }
-
+@media screen and (min-width: 375px) {
+.images-container { padding: 185px 0;}
+}
 @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx){.images-container {
