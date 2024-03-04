@@ -6,17 +6,19 @@
   /* Применяем размытие */
   display: flex;
   padding: 8px 20px;
-  justify-content: space-between;
+  z-index: 1;
 }
 
 .header-container {
   width: 100%;
   height: 32px;
   display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
 }
 
 .header-style-nav {
-  display: flex;
+  display: none;
   margin-left: auto;
   gap: 20px;
 }
@@ -33,11 +35,6 @@
 .header-icon {
   width: 168px;
   height: 16px;
-}
-
-.header-icon-two {
-  width: 148px;
-  height: 12px;
 }
 
 .header-ul {
@@ -218,21 +215,22 @@
   }
 
   .header-icon {
-    width: 18px;
+    width: 194px;
     height: 18px;
-  }
-
-  .header-icon-two {
-    width: 168px;
-    height: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .header-style-nav {
+    display: none;
+  }
+
   .header-container {
     min-width: 704px;
     height: 40px;
-
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
   }
 
   .button-style {
@@ -246,13 +244,8 @@
   }
 
   .header-icon {
-    width: 18px;
+    width: 194px;
     height: 18px;
-  }
-
-  .header-icon-two {
-    width: 168px;
-    height: 15px;
   }
 
   .open-btn-icon {
@@ -278,62 +271,62 @@
   .mob-menu-a {
     font-size: 16px;
     line-height: 1.25;
-
-    .mob-menu {
-      width: 351px;
-      margin-left: 417px;
-    }
-
-    .mob-menu-a {
-      font-size: 16px;
-      line-height: 1.25;
-    }
-
-    .mob-menu-btn {
-      font-size: 18px;
-      line-height: 1.1;
-      letter-spacing: -0.01em;
-      height: 52px;
-      width: 157px;
-      padding: 16px 32px;
-    }
-
-    .mob-menu-btn {
-      font-size: 18px;
-      line-height: 1.1;
-      letter-spacing: -0.01em;
-      height: 52px;
-      width: 157px;
-      padding: 16px 32px;
-    }
   }
-}}
+
+  .mob-menu {
+    width: 351px;
+    margin-left: 417px;
+  }
+
+  .mob-menu-a {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .mob-menu-btn {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    height: 52px;
+    width: 157px;
+    padding: 16px 32px;
+  }
+
+  .mob-menu-btn {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    height: 52px;
+    width: 157px;
+    padding: 16px 32px;
+  }
+}
 
 
-  /******************----D---E---S----K----T----O----P-----***********/
+/******************----D---E---S----K----T----O----P-----***********/
 
-  @media screen and (min-width: 1280px) {
-    .header-container {
-      display: flex;
-      min-width: 1280px;
-      height: 52px;
-    }
+@media screen and (min-width: 1280px) {
+  .header-container {
+    display: flex;
+    min-width: 1280px;
+    height: 52px;
+  }
 
-    .button-style {
-      display: flex;
-    }
+  .header-style-nav {
+    display: flex;
+  }
 
-    .menu-open-btn {
-      display: none;
-    }
+  .button-container {
+    display: flex;
+  }
 
-    .header-ul {
-      display: flex;
-    }
+  .button-style {
+    display: flex;
+    margin-left: 20px;
+  }
 
-    .mob-menu {
-      display: none;
-    }
+  .menu-open-btn {
+    display: none;
   }
 
   .header-ul {
@@ -343,5 +336,12 @@
   .mob-menu {
     display: none;
   }
+}
 
+.header-ul {
+  display: flex;
+}
+
+.mob-menu {
+  display: none;
 }
