@@ -14,7 +14,6 @@
   height: 32px;
   display: flex;
   justify-content: space-between;
-  padding-right: 20px;
 }
 
 .header-style-nav {
@@ -308,8 +307,9 @@
 @media screen and (min-width: 1280px) {
   .header-container {
     display: flex;
-    min-width: 1280px;
+    max-width: 1280px;
     height: 52px;
+    padding: 0;
   }
 
   .header-style-nav {
