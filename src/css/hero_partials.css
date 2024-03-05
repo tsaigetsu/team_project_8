@@ -124,7 +124,7 @@
     background-image: linear-gradient( rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)), url(/img/vegetable-mob.jpg); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size:contain;
+    background-size:cover;
     padding: 160px 0;
 
 }
