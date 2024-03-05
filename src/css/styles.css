@@ -43,3 +43,12 @@
     padding-right: 100px;
   }
 }
+
+.hero-section,
+.how-it-works,
+.foursome-section,
+.section-vegetable,
+.review-section,
+.your_order_section {
+  overflow-x: hidden;
+}
